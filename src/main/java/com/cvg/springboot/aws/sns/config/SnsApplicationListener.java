@@ -7,7 +7,7 @@ public class SnsApplicationListener implements ApplicationListener<ApplicationEn
 
     @Override
     public void onApplicationEvent(ApplicationEnvironmentPreparedEvent event) {
-        System.setProperty("aws.accessKeyId", "");
-        System.setProperty("aws.secretAccessKey", "");
+        System.setProperty("aws.accessKeyId", "TU_ACCESS_KEY_ID");
+        System.setProperty("aws.secretAccessKey", "TU_SECRET_KEY");
     }
 }
